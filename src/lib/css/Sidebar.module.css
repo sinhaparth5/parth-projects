@@ -1,0 +1,46 @@
+.navSection {
+    margin-bottom: 2rem;
+    padding: 0 1.5rem;
+}
+
+.navSection h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-weight: 600;
+}
+
+.projectsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navLink {
+    display: block;
+    padding: 0.75rem 0;
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.2s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navLink:hover {
+    color: #fff;
+}
+
+.homeLink {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.active {
+    color: #39FF14; /* Neon green to match the boxes */
+    font-weight: 600;
+}
+
+.navMainSection {
+    margin-top: 2.5rem;
+}    

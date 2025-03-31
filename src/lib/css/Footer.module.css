@@ -1,0 +1,132 @@
+.footer {
+    background: linear-gradient(to right, #f8fafc, #f1f5f9);
+    padding: 4rem 0 2rem;
+    margin-top: 6rem;
+    border-top: 1px solid rgba(226, 232, 240, 0.8);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .brand {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .logoText {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+  }
+  
+  .accent {
+    color: #4f46e5;
+  }
+  
+  .tagline {
+    margin-top: 1rem;
+    color: #64748b;
+    max-width: 300px;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+  
+  .linkGroup {
+    min-width: 160px;
+  }
+  
+  .linkTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 1.25rem;
+  }
+  
+  .linkList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .linkList li {
+    margin-bottom: 0.75rem;
+  }
+  
+  .link {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 0.938rem;
+    transition: color 0.2s ease;
+  }
+  
+  .link:hover {
+    color: #4f46e5;
+  }
+  
+  .bottom {
+    padding-top: 2rem;
+    border-top: 1px solid rgba(226, 232, 240, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .copyright {
+    color: #94a3b8;
+    font-size: 0.875rem;
+  }
+  
+  .social {
+    display: flex;
+    gap: 1.25rem;
+  }
+  
+  .socialLink {
+    color: #64748b;
+    transition: color 0.2s ease;
+  }
+  
+  .socialLink:hover {
+    color: #4f46e5;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 3rem 0 1.5rem;
+    }
+    
+    .content {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .links {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "WCAG Scanner",
+      "description": "A responsive portfolio website built with Svelte and CSS modules.",
+      "image": "https://r2.astrareconslabs.com/ai-generated-8094691_640.webp",
+      "tags": ["Svelte", "CSS Modules", "Responsive"],
+      "link": "wcag-scanner"
+    },
+    {
+      "id": 2,
+      "title": "Hidden Markov Model",
+      "description": "Using Hidden Markov Model, created model to predict stock market price.",
+      "image": "https://r2.astrareconslabs.com/ai-generated-8094738_640.webp",
+      "tags": ["Python", "HMM", "numpy", "matplotlib"],
+
+      "link": "hmm"
+    },
+    {
+      "id": 3,
+      "title": "MathSnap",
+      "description": "MathSnap is a lightweight, framework-agnostic wrapper around KaTeX",
+      "image": "https://r2.astrareconslabs.com/anime-8648011_640.webp",
+      "tags": ["Svelte", "React", "Vue", "npm"],
+      "link": "mathsnap"
+    },
+    {
+      "id": 4,
+      "title": "Task Management Tool",
+      "description": "Productivity application for organizing tasks and projects.",
+      "image": "https://r2.astrareconslabs.com/girl-8435339_640.webp",
+      "tags": ["Svelte", "Local Storage", "Drag and Drop"],
+      "link": "#"
+    }
+  ]
