@@ -7,8 +7,8 @@ export const handle: Handle = async ({ event, resolve }) => {
         supabaseKey: import.meta.env.VITE_PUBLIC_SUPABASE_ANON_KEY,
         event,
     });
-    event.locals.getSession = async () => {
-        const { data: { session } } = await event.locals.supabase.auth.getSession();
+    event.locals.getUser = async () => {
+        const { data: { session } } = await event.locals.supabase.auth.getUser();
         return session;
     };
     return resolve(event, {

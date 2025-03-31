@@ -69,13 +69,13 @@
                 return async ({ result, update }) => {
                     loading = false;
                     if (result.type === 'success' && result.data?.success) {
+                        // Invalidate and then force a full page reload
+                        await invalidateAll();
+                        
                         if (isLoginSuccess(result.data)) {
-                            await invalidateAll();
-                            goto(result.data.redirectTo || '/');
+                            window.location.href = result.data.redirectTo;
                         } else {
-                            console.error('Unexpected result.data shape:', result.data);
-                            await invalidateAll();
-                            goto('/'); // Fallback
+                            window.location.href = '/';
                         }
                     } else {
                         await update();
