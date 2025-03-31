@@ -8,9 +8,7 @@ export const actions: Actions = {
     const formData = Object.fromEntries(await request.formData());
     
     try {
-      // Validate form data with Zod
       const { email, password } = loginSchema.parse(formData);
-      
       const { data, error } = await locals.supabase.auth.signInWithPassword({
         email,
         password
@@ -19,11 +17,12 @@ export const actions: Actions = {
       if (error) {
         return fail(400, { error: error.message });
       }
-      
+      const { data: {session} } = await locals.supabase.auth.getSession();
       // Return a success status with a redirect URL
       return {
         success: true,
-        redirectTo: '/'
+        redirectTo: '/',
+        session
       };
       
     } catch (err) {

@@ -2,15 +2,8 @@
     import { page } from '$app/stores';
     import styles from '../lib/css/Navbar.module.css';
     
-    export let session: any = null;
-    
-    // Get user from session if it exists
-    $: user = session?.user || null;
-    
-    // Determine if we're on the home page
+    $: user = $page.data.user;
     $: isHomePage = $page.url.pathname === '/';
-    
-    // Only show navbar if we're not on the home page
     $: showNavbar = !isHomePage;
   </script>
   
