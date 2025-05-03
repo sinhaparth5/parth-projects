@@ -8,11 +8,8 @@
   </script>
   
   <div class="app">
-    <Navbar session={data.session} />
-    
     <main>
       <slot />
     </main>
-    
     <Footer />
   </div>
