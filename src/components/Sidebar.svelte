@@ -57,7 +57,7 @@
 <style>
     .sidebar {
         width: 280px;
-        background-color: rgba(25, 25, 30, 0.9);
+        background: linear-gradient(to bottom, #6B48FF, #FF8C00);
         color: #fff;
         padding: 2rem 0;
         position: fixed;

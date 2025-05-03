@@ -7,35 +7,9 @@
   
   <footer class={styles.footer}>
     <div class={styles.container}>
-      <div class={styles.content}>
-        <div class={styles.brand}>
-          <a href="/" class={styles.logo}>
-            <span class={styles.logoText}>P4rth<span class={styles.accent}>Project</span></span>
-          </a>
-          <p class={styles.tagline}>Create, showcase, and discover amazing projects.</p>
-        </div>
-        
-        <div class={styles.links}>
-          <div class={styles.linkGroup}>
-            <h3 class={styles.linkTitle}>Navigation</h3>
-            <ul class={styles.linkList}>
-              <li><a href="/" class={styles.link}>Home</a></li>
-              <li><a href="/projects" class={styles.link}>Projects</a></li>
-              <li><a href="/about" class={styles.link}>About</a></li>
-            </ul>
-          </div>
-          
-          <div class={styles.linkGroup}>
-            <h3 class={styles.linkTitle}>Account</h3>
-            <ul class={styles.linkList}>
-              <li><a href="/login" class={styles.link}>Login</a></li>
-              <li><a href="/auth/register" class={styles.link}>Register</a></li>
-              <li><a href="/projects/create" class={styles.link}>Create Project</a></li>
-            </ul>
-          </div>
-        </div>
+      <div class={styles.websiteName}>
+        <p>パートプロジェクト</p>
       </div>
-      
       <div class={styles.bottom}>
         <p class={styles.copyright}>&copy; {currentYear} P4rthProject. All rights reserved.</p>
         <div class={styles.social}>

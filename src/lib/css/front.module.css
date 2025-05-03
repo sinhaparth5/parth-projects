@@ -112,7 +112,7 @@
   }
   
   .projectCard {
-    background: white;
+    background: linear-gradient(to bottom, #6B48FF, #FF8C00);
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05), 0 1px 8px rgba(0,0,0,0.06);
@@ -160,7 +160,7 @@
   
   .projectDescription {
     font-size: 1rem;
-    color: #666;
+    color: black;
     margin-bottom: 1.5rem;
     line-height: 1.6;
     flex-grow: 1;
@@ -175,7 +175,7 @@
   
   .tag {
     background: rgba(74, 144, 226, 0.1);
-    color: #4a90e2;
+    color: black;
     padding: 0.35rem 0.75rem;
     border-radius: 4px;
     font-size: 0.75rem;
@@ -187,7 +187,7 @@
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    color: #4a90e2;
+    color: black;
     font-size: 0.95rem;
     font-weight: 600;
     margin-top: auto;
@@ -230,7 +230,7 @@
     }
     
     .projectCard {
-      background: #1e1e1e;
+      background: linear-gradient(to bottom, #6B48FF, #FF8C00);
       box-shadow: 0 10px 30px rgba(0,0,0,0.3), 0 1px 8px rgba(0,0,0,0.2);
     }
     
@@ -241,10 +241,7 @@
     .projectTitle {
       color: #f0f0f0;
     }
-    
-    .projectDescription {
-      color: #b0b0b0;
-    }
+  
   }
   
   /* Responsive adjustments */
