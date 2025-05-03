@@ -156,6 +156,7 @@
     font-weight: 700;
     margin: 0 0 0.75rem 0;
     color: #1a1a1a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   
   .projectDescription {
